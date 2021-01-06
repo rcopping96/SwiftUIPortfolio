@@ -10,6 +10,8 @@
 		D4ADC3D125A5F7EE00CFA9F3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ADC3D025A5F7EE00CFA9F3 /* CloudKit.framework */; };
 		D4ADC3D425A6046700CFA9F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D325A6046700CFA9F3 /* HomeView.swift */; };
 		D4ADC3D725A604DA00CFA9F3 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */; };
+		D4ADC3DA25A61A1800CFA9F3 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D925A61A1800CFA9F3 /* Item-CoreDataHelpers.swift */; };
+		D4ADC3DD25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3DC25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift */; };
 		D4BBCAC125A373CF006773BC /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBCAC025A373CF006773BC /* PortfolioApp.swift */; };
 		D4BBCAC325A373CF006773BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BBCAC225A373CF006773BC /* ContentView.swift */; };
 		D4BBCAC525A373D1006773BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BBCAC425A373D1006773BC /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		D4ADC3D025A5F7EE00CFA9F3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		D4ADC3D325A6046700CFA9F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		D4ADC3D925A61A1800CFA9F3 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D4ADC3DC25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D4BBCABD25A373CF006773BC /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BBCAC025A373CF006773BC /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
 		D4BBCAC225A373CF006773BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				D4ADC3CE25A5F7EC00CFA9F3 /* Portfolio.entitlements */,
 				D4BBCAC025A373CF006773BC /* PortfolioApp.swift */,
 				D4BBCAC225A373CF006773BC /* ContentView.swift */,
+				D4ADC3D925A61A1800CFA9F3 /* Item-CoreDataHelpers.swift */,
+				D4ADC3DC25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift */,
 				D4ADC3D325A6046700CFA9F3 /* HomeView.swift */,
 				D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */,
 				D4BBCAD025A3C73C006773BC /* Main.xcdatamodeld */,
@@ -166,10 +172,12 @@
 			files = (
 				D4ADC3D725A604DA00CFA9F3 /* ProjectsView.swift in Sources */,
 				D4BBCAD225A3C73C006773BC /* Main.xcdatamodeld in Sources */,
+				D4ADC3DD25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift in Sources */,
 				D4BBCAD525A3CB16006773BC /* DataController.swift in Sources */,
 				D4BBCAC325A373CF006773BC /* ContentView.swift in Sources */,
 				D4ADC3D425A6046700CFA9F3 /* HomeView.swift in Sources */,
 				D4BBCAC125A373CF006773BC /* PortfolioApp.swift in Sources */,
+				D4ADC3DA25A61A1800CFA9F3 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
