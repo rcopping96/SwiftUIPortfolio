@@ -13,7 +13,7 @@ extension Item{
     }
     
     var itemDetail: String {
-        title ?? ""
+        detail ?? ""
     }
     
     var itemCreationDate: Date {
