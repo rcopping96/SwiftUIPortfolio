@@ -27,18 +27,9 @@ struct ContentView: View {
             ProjectsView(showClosedProjects: true)
                 .tag(ProjectsView.closedTag)
                 .tabItem {
-                    Image(systemName: "list.bullet")
+                    Image(systemName: "checkmark")
                     Text("Closed Projects")
                 }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var dataController = DataController.preview
-    static var previews: some View {
-        ContentView()
-            .environment(\.managedObjectContext, dataController.container.viewContext)
-            .environmentObject(dataController)
     }
 }

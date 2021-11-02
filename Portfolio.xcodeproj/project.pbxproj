@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40EBF452731630D00F19F85 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF442731630D00F19F85 /* ProjectHeaderView.swift */; };
+		D40EBF6C2731649E00F19F85 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40EBF6B2731649E00F19F85 /* Colors.xcassets */; };
+		D40EBF6E2731650200F19F85 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF6D2731650200F19F85 /* EditProjectView.swift */; };
 		D4ADC3D125A5F7EE00CFA9F3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ADC3D025A5F7EE00CFA9F3 /* CloudKit.framework */; };
 		D4ADC3D425A6046700CFA9F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D325A6046700CFA9F3 /* HomeView.swift */; };
 		D4ADC3D725A604DA00CFA9F3 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D40EBF442731630D00F19F85 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		D40EBF6B2731649E00F19F85 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D40EBF6D2731650200F19F85 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		D4ADC3CE25A5F7EC00CFA9F3 /* Portfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Portfolio.entitlements; sourceTree = "<group>"; };
 		D4ADC3D025A5F7EE00CFA9F3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		D4ADC3D325A6046700CFA9F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -91,12 +97,15 @@
 				D4ADC3DC25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift */,
 				D4ADC3D325A6046700CFA9F3 /* HomeView.swift */,
 				D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */,
+				D40EBF442731630D00F19F85 /* ProjectHeaderView.swift */,
 				D4ADC3E225A748F300CFA9F3 /* ItemRowView.swift */,
 				D4ADC3E525A74B5600CFA9F3 /* Binding-OnChange.swift */,
 				D4BBCAD025A3C73C006773BC /* Main.xcdatamodeld */,
 				D4BBCAD425A3CB16006773BC /* DataController.swift */,
 				D4BBCAC425A373D1006773BC /* Assets.xcassets */,
 				D4BBCAC925A373D1006773BC /* Info.plist */,
+				D40EBF6B2731649E00F19F85 /* Colors.xcassets */,
+				D40EBF6D2731650200F19F85 /* EditProjectView.swift */,
 				D4BBCAC625A373D1006773BC /* Preview Content */,
 			);
 			path = Portfolio;
@@ -167,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40EBF6C2731649E00F19F85 /* Colors.xcassets in Resources */,
 				D4BBCAC825A373D1006773BC /* Preview Assets.xcassets in Resources */,
 				D4BBCAC525A373D1006773BC /* Assets.xcassets in Resources */,
 			);
@@ -180,8 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4ADC3D725A604DA00CFA9F3 /* ProjectsView.swift in Sources */,
+				D40EBF452731630D00F19F85 /* ProjectHeaderView.swift in Sources */,
 				D4BBCAD225A3C73C006773BC /* Main.xcdatamodeld in Sources */,
 				D4ADC3DD25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift in Sources */,
+				D40EBF6E2731650200F19F85 /* EditProjectView.swift in Sources */,
 				D4BBCAD525A3CB16006773BC /* DataController.swift in Sources */,
 				D4ADC3E325A748F300CFA9F3 /* ItemRowView.swift in Sources */,
 				D4BBCAC325A373CF006773BC /* ContentView.swift in Sources */,
@@ -323,7 +335,7 @@
 				DEVELOPMENT_TEAM = DPQVGWRDY3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Portfolio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +358,7 @@
 				DEVELOPMENT_TEAM = DPQVGWRDY3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Portfolio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
