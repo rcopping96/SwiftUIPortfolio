@@ -44,6 +44,10 @@ struct AwardsView: View {
                     return Alert(title: Text("Locked"), message: Text(selectedAward.description), dismissButton: .default(Text("OK")))
                 }
             }
+            .accessibilityLabel(
+                Text(dataController.hasEarned(award: selectedAward) ? "Unlocked: \(selectedAward.name)" : "Locked")
+            )
+            .accessibilityHint(Text(selectedAward.description))
         }
     }
 }
