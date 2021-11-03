@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     @SceneStorage("selectedView") var selectedView: String?
-    
+
     var body: some View {
-        TabView(selection: $selectedView){
+        TabView(selection: $selectedView) {
             HomeView()
                 .tag(HomeView.tag)
                 .tabItem {
@@ -32,7 +32,7 @@ struct ContentView: View {
                 }
             AwardsView()
                 .tag(AwardsView.tag)
-                .tabItem{
+                .tabItem {
                     Image(systemName: "rosette")
                     Text("Awards")
                 }
