@@ -10,6 +10,15 @@
 		D40EBF452731630D00F19F85 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF442731630D00F19F85 /* ProjectHeaderView.swift */; };
 		D40EBF6C2731649E00F19F85 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40EBF6B2731649E00F19F85 /* Colors.xcassets */; };
 		D40EBF6E2731650200F19F85 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF6D2731650200F19F85 /* EditProjectView.swift */; };
+		D40EBF70273187BE00F19F85 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF6F273187BE00F19F85 /* SelectSomethingView.swift */; };
+		D40EBF7227318BEB00F19F85 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF7127318BEB00F19F85 /* Sequence-Sorting.swift */; };
+		D40EBF7427318F9300F19F85 /* Bundle-Decodale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF7327318F9300F19F85 /* Bundle-Decodale.swift */; };
+		D40EBF782731966900F19F85 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF772731966900F19F85 /* Award.swift */; };
+		D40EBF7A2731974900F19F85 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40EBF792731974900F19F85 /* AwardsView.swift */; };
+		D468FC092732C6DD00A3D29A /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468FC082732C6DD00A3D29A /* Color-Additions.swift */; };
+		D468FC1327332D0700A3D29A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D468FC1527332D0700A3D29A /* Localizable.strings */; };
+		D468FC1727332D4D00A3D29A /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D468FC1927332D4D00A3D29A /* Localizable.stringsdict */; };
+		D468FC1B27332DFD00A3D29A /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = D468FC1D27332DFD00A3D29A /* Awards.json */; };
 		D4ADC3D125A5F7EE00CFA9F3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ADC3D025A5F7EE00CFA9F3 /* CloudKit.framework */; };
 		D4ADC3D425A6046700CFA9F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D325A6046700CFA9F3 /* HomeView.swift */; };
 		D4ADC3D725A604DA00CFA9F3 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */; };
@@ -30,6 +39,18 @@
 		D40EBF442731630D00F19F85 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		D40EBF6B2731649E00F19F85 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D40EBF6D2731650200F19F85 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		D40EBF6F273187BE00F19F85 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		D40EBF7127318BEB00F19F85 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
+		D40EBF7327318F9300F19F85 /* Bundle-Decodale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodale.swift"; sourceTree = "<group>"; };
+		D40EBF772731966900F19F85 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		D40EBF792731974900F19F85 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		D468FC082732C6DD00A3D29A /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
+		D468FC1427332D0700A3D29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D468FC1627332D1100A3D29A /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D468FC1827332D4D00A3D29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		D468FC1A27332D5400A3D29A /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		D468FC1C27332DFD00A3D29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
+		D468FC1E27332E0000A3D29A /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		D4ADC3CE25A5F7EC00CFA9F3 /* Portfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Portfolio.entitlements; sourceTree = "<group>"; };
 		D4ADC3D025A5F7EE00CFA9F3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		D4ADC3D325A6046700CFA9F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -94,9 +115,17 @@
 				D4BBCAC225A373CF006773BC /* ContentView.swift */,
 				D4ADC3DF25A7436700CFA9F3 /* EditItemView.swift */,
 				D4ADC3D925A61A1800CFA9F3 /* Item-CoreDataHelpers.swift */,
+				D468FC1527332D0700A3D29A /* Localizable.strings */,
+				D468FC1927332D4D00A3D29A /* Localizable.stringsdict */,
 				D4ADC3DC25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift */,
+				D40EBF7127318BEB00F19F85 /* Sequence-Sorting.swift */,
 				D4ADC3D325A6046700CFA9F3 /* HomeView.swift */,
 				D4ADC3D625A604DA00CFA9F3 /* ProjectsView.swift */,
+				D40EBF7327318F9300F19F85 /* Bundle-Decodale.swift */,
+				D40EBF772731966900F19F85 /* Award.swift */,
+				D40EBF792731974900F19F85 /* AwardsView.swift */,
+				D468FC082732C6DD00A3D29A /* Color-Additions.swift */,
+				D40EBF6F273187BE00F19F85 /* SelectSomethingView.swift */,
 				D40EBF442731630D00F19F85 /* ProjectHeaderView.swift */,
 				D4ADC3E225A748F300CFA9F3 /* ItemRowView.swift */,
 				D4ADC3E525A74B5600CFA9F3 /* Binding-OnChange.swift */,
@@ -106,6 +135,7 @@
 				D4BBCAC925A373D1006773BC /* Info.plist */,
 				D40EBF6B2731649E00F19F85 /* Colors.xcassets */,
 				D40EBF6D2731650200F19F85 /* EditProjectView.swift */,
+				D468FC1D27332DFD00A3D29A /* Awards.json */,
 				D4BBCAC625A373D1006773BC /* Preview Content */,
 			);
 			path = Portfolio;
@@ -160,6 +190,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hu,
 			);
 			mainGroup = D4BBCAB425A373CF006773BC;
 			productRefGroup = D4BBCABE25A373CF006773BC /* Products */;
@@ -176,9 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D468FC1327332D0700A3D29A /* Localizable.strings in Resources */,
 				D40EBF6C2731649E00F19F85 /* Colors.xcassets in Resources */,
+				D468FC1B27332DFD00A3D29A /* Awards.json in Resources */,
 				D4BBCAC825A373D1006773BC /* Preview Assets.xcassets in Resources */,
 				D4BBCAC525A373D1006773BC /* Assets.xcassets in Resources */,
+				D468FC1727332D4D00A3D29A /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +225,16 @@
 			files = (
 				D4ADC3D725A604DA00CFA9F3 /* ProjectsView.swift in Sources */,
 				D40EBF452731630D00F19F85 /* ProjectHeaderView.swift in Sources */,
+				D40EBF7A2731974900F19F85 /* AwardsView.swift in Sources */,
 				D4BBCAD225A3C73C006773BC /* Main.xcdatamodeld in Sources */,
+				D40EBF70273187BE00F19F85 /* SelectSomethingView.swift in Sources */,
+				D468FC092732C6DD00A3D29A /* Color-Additions.swift in Sources */,
 				D4ADC3DD25A61B4300CFA9F3 /* Project-CoreDataHelpers.swift in Sources */,
 				D40EBF6E2731650200F19F85 /* EditProjectView.swift in Sources */,
+				D40EBF7227318BEB00F19F85 /* Sequence-Sorting.swift in Sources */,
+				D40EBF782731966900F19F85 /* Award.swift in Sources */,
 				D4BBCAD525A3CB16006773BC /* DataController.swift in Sources */,
+				D40EBF7427318F9300F19F85 /* Bundle-Decodale.swift in Sources */,
 				D4ADC3E325A748F300CFA9F3 /* ItemRowView.swift in Sources */,
 				D4BBCAC325A373CF006773BC /* ContentView.swift in Sources */,
 				D4ADC3E625A74B5600CFA9F3 /* Binding-OnChange.swift in Sources */,
@@ -206,6 +246,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D468FC1527332D0700A3D29A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D468FC1427332D0700A3D29A /* en */,
+				D468FC1627332D1100A3D29A /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D468FC1927332D4D00A3D29A /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D468FC1827332D4D00A3D29A /* en */,
+				D468FC1A27332D5400A3D29A /* hu */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		D468FC1D27332DFD00A3D29A /* Awards.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D468FC1C27332DFD00A3D29A /* en */,
+				D468FC1E27332E0000A3D29A /* hu */,
+			);
+			name = Awards.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D4BBCACA25A373D1006773BC /* Debug */ = {
@@ -259,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -314,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

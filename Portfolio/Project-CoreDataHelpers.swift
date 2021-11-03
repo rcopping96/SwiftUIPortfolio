@@ -8,8 +8,12 @@
 import Foundation
 
 extension Project{
+    enum SortOrder {
+        case optimised, title, creationDate
+    }
+    
     var projectTitle: String{
-        title ?? "New Project"
+        title ?? NSLocalizedString("New Project", comment: "Create a new project")
     }
     
     var projectDetail: String{
@@ -69,4 +73,15 @@ extension Project{
     }
     
     static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
+    
+    func projectItems(using sortOrder: Item.SortOrder) -> [Item] {
+        switch sortOrder {
+        case .title:
+            return projectItems.sorted(by: \Item.itemTitle)
+        case .creationDate:
+            return projectItems.sorted(by: \Item.itemCreationDate)
+        case .optimised:
+            return projectItemsDefaultSorted
+        }
+    }
 }

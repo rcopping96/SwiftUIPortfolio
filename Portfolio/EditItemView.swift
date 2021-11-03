@@ -29,7 +29,7 @@ struct EditItemView: View {
         Form{
             Section(header: Text("Basic Settings")) {
                 TextField("Item name", text: $title.onChange(update))
-                TextField("Descripton", text: $detail.onChange(update))
+                TextField("Description", text: $detail.onChange(update))
             }
             
             Section(header: Text("Priority")) {
